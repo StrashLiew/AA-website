@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+html {
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+}
+
+body {
+	margin: auto;
+	padding: 0;
+	position: relative;
+	font-family: sans-serif;
+  	box-sizing: border-box;
+  	text-align: center;
+}
+
+.coursetable table{
+	width: 80%;
+	margin-top: 35px;
+	padding:0;
+}
+
+.coursetable table tr{
+	height: 60px;
+	font-family: 'Times New Roman', serif;
+	font-size: 18px;
+	background: linear-gradient(200deg, #fff 10%, #F0E5CE 90%);
+}
+
+h4{
+	font-family: Georgia, serif;
+	padding: 10px;
+	color: #272E1A;
+}
+
+a{
+	cursor: pointer;
+}
+

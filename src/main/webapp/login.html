@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CAT University Academic Affairs Online System</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+<link href="resources/login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="particles-js"></div>
+<div class="login-box">
+<h1 class="login-title">CAT University Academic Affairs Online System</h1>
+<p><small>Welcome!</small> <br>
+<small>Please enter your staff ID or student ID and password to log in.</small></p>
+<form class="login-form" action="VerifyLogin" method="post">
+	<div class="login-form-username-password">
+		<div class="login-form-content username">
+		  	<input type="text" class="form-input" id="inputUsername" name="inputUsername" placeholder=" ">
+			<label for="inputUsername" class="form-label">Username</label>
+		</div>
+		
+		<div class="login-form-content password">
+			<input type="password" class="form-input" id="inputPassword" name="inputPassword" placeholder=" ">
+			<label for="inputPassword" class="form-label">Password</label>
+		</div>
+	</div>
+
+	<div class="form-submission">
+		<button type="submit" class="form-submit-button" onclick=""><span>Login</span><i></i></button>
+	</div>
+</form>
+</div>
+
+<script type="text/javascript" src="resources/js/particles.min.js"></script>
+<script type="text/javascript" src="resources/js/app.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,160 @@
+@charset "ISO-8859-1";
+
+html {
+  	background-repeat:no-repeat;
+  	min-height: 100%;
+  	width: 100%;
+  	height: auto;
+}
+
+body {
+	margin: auto;
+	padding: 0;
+	position: relative;
+	font-family: sans-serif;
+  	box-sizing: border-box;
+  	text-align: center;
+  	background: linear-gradient(200deg, #fff 30%, #D7F3F5 70%);
+}
+
+.timetable-content {
+	position: relative;
+  	margin: auto;
+  	width: 1000px;
+  	padding: 20px;
+  	box-sizing: border-box;
+  	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  	border-radius: 10px;
+  	background: #fff;
+}
+
+.container {
+	font-family: 'Trebuchet MS', sans-serif;
+  	background: #fff;
+  	border-radius: 6px;
+  	margin: auto;  
+}
+
+.topHeader {
+  	color: black;
+  	background: #FCE6C9;
+  	height: 80px;
+  	width: 100%;
+  	padding: 15px 0px 15px 0px;
+  	text-align: center;
+  	z-index: 30;
+  	box-shadow: 0px 10px 28px -11px rgba(0,0,0,0.35);
+}
+
+h1 {
+  	font-size: 30px;
+  	margin-top: 0px;
+  	margin-bottom: 30px;
+  	display: inline-block;
+  	font-weight: 200;
+}
+
+.topHeader, th { 
+  	font-size: 15px;
+}
+
+.tableHeader th {
+  	color: rgba(158, 138, 135, 25);
+  	font-weight: 600;
+}
+
+table {
+  	width: 100%;
+  	border-spacing: 0px;
+}
+
+td, th {
+  	width: 100px;
+}
+
+td:hover{
+	background: #F5DEB3;
+	opacity: 0.5;
+}
+
+td {
+  	height: 12px;
+  	border-left: 1px solid rgba(120,120,255,0.5);
+}
+
+.time {
+  	color: rgba(0,0,0,0.9);
+  	font-size: 10px;
+  	text-align: center;
+  	font-weight: 400;
+}
+
+tr:nth-child(2n) {
+  	background: rgba(120,120,255,0.06);
+}
+
+tr {
+  	height: 30px;
+  	font-size: 15px;
+}
+
+.title {
+  	margin: 0px 0px;
+  	text-align: center;
+}
+
+.topHeader button {
+ 	float: right; 
+ 	margin-right: 15px;
+}
+
+
+button {
+    background-color: rgba(8, 5, 52, 0.5);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+button:focus {
+  	border: none;
+  	outline: none;
+}
+
+button:hover {
+  	transform: translateY(-3px);
+  	transition: 300ms;
+}
+
+button:active {
+  	transform: translateY(4px);
+  	background: rgba(8, 5, 52, 0.9);
+}
+
+.addNew {
+  	margin-left: 150px;
+  	display: inline;
+  	position: absolute;
+  	font-size: 12px;
+  	font-weight: 100;
+  	box-shadow: 0px 10px 47px -6px rgba(0,0,0,0.75);
+}
+
+.addButton {
+  	height: 3em;
+  	margin: 20px auto;
+  	font-weight:200;
+  	display: block;
+  	font-size: 24px;
+  	box-shadow: 0px 10px 47px -6px rgba(0,0,0,0.25);
+}
+
+@media print {
+
+}
+

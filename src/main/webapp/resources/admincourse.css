@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+
+html {
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+}
+
+body {
+	margin: auto;
+	padding: 0;
+	position: relative;
+	font-family: sans-serif;
+  	box-sizing: border-box;
+  	text-align: center;
+}
+
+.coursetable table{
+	width: 70%;
+}
+
+.coursetable table tr{
+	height: 60px;
+	font-family: 'Times New Roman', serif;
+	font-size: 18px;
+	background: linear-gradient(200deg, #fff 10%, #F0E5CE 90%);
+}
+
+.mb-0{
+	color: #302E28;
+	font-size: 18px;
+	font-family: 'Trebuchet MS', sans-serif;
+	padding: 10px;
+}
+
+.pr-1{
+	color: #302E28;
+	font-size: 20px;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+h4{
+	font-family: Georgia, serif;
+	padding: 10px;
+	color: #272E1A;
+}
+
+a{
+	cursor: pointer;
+}
+
+a:hover{
+	background:#17c;
+}
+
+button {
+	color: #454545;
+	background: transparent;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #454545;
+	position: relative;
+	margin: 1em;
+	display: inline-block; 
+	padding: 0.5em 1em;
+	transition: all 0.3s ease-in-out;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+button:before, button:after {
+	content: '';
+	display: block;
+	position: absolute;
+	border-color: #454545;
+	box-sizing: border-box;
+	border-style: solid;
+	width: 1em;
+	height: 1em;
+	transition: all 0.3s ease-in-out;
+}
+
+button:before {
+	top: -6px;
+	left: -6px;
+	border-width: 2px 0 0 2px;
+	z-index: 5;
+}
+
+button:after {
+	bottom: -6px;
+	right: -6px;
+	border-width: 0 2px 2px 0;
+}
+
+button:hover:before, button:hover:after {
+	width: calc(100% + 12px);	
+	height: calc(100% + 12px);
+	border-color: #fff;
+}
+
+button:hover { 
+	color: #353535;
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.blue button {
+	color: #454545;
+	border-color: #454545;
+}
+
+.blue button:before, .blue button:after  {
+	border-color: #454545;
+}
+
+.blue button:hover:before, .blue button:hover:after {
+	border-color: #454545;
+}
+
+.blue button:hover {
+	color: #fff;
+	background-color: #454545;
+	border-color: #454545;
+}
+
+.blue .panel {
+	max-width: 960px;
+	text-align: center;
+	position: relative;
+	margin:auto;
+}

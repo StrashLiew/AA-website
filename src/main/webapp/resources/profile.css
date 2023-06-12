@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+
+html {
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+}
+
+body {
+	margin: auto;
+	padding: 0;
+	position: relative;
+	font-family: sans-serif;
+  	box-sizing: border-box;
+  	text-align: center;
+}
+
+.header {
+	margin: 0;
+	padding: 0;
+	background-color: #232A32;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.header img{
+	margin: 30px 0 0 0;
+	width: 80px;
+	height: 80px;
+}
+
+.subtitle {
+  	padding-bottom: 20px;
+  	opacity: 0;
+  	font-size: 20px;
+  	font-family: sans-serif;
+  	font-family: monospace;
+  	animation: subtitle 2s forwards;
+  	animation-delay: calc(var(--typewriter-speed) + 0.5s);
+  	color: #fff;
+}
+
+
+.container {
+  	position: relative;
+  	margin: auto;
+  	width: 500px;
+  	padding: 20px;
+  	background: linear-gradient(200deg, #fff 30%, #D7F3F5 70%);
+  	box-sizing: border-box;
+  	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  	border-radius: 10px;
+}
+
+.profile-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #9CDDF6;
+}
+
+.profile-content table, td{
+	border: none;
+	border-collapse: collapse;
+}
+
+.student-profile .card {
+	border-radius: 10px;
+  	margin-top: 100px;
+}
+
+.student-profile .card .card-header .profile_img {
+  	width: 150px;
+  	height: 150px;
+  	object-fit: cover;
+  	margin: 10px auto;
+  	border: 10px solid #55859b;
+  	border-radius: 50%;
+}
+
+.student-profile .card h2 {
+  	font-size: 20px;
+  	font-weight: 700;
+}
+
+.student-profile .card p {
+  	font-size: 16px;
+  	color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+  	font-size: 14px;
+  	padding: 5px 10px;
+  	color: #000;  
+}
+
+.table {
+	width: 55%;
+}
+
+.row{
+	transform: translateY(-55px);
+}
+
+.pt-0{
+	display: flex;
+    justify-content: center;
+    width: 100%;
+}
